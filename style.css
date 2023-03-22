@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#d1b98c), url(img/1659099738_785238_1659100664_gigante_normal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.logo{
+    width: 140px;
+    position:absolute;
+    top: 4%;
+    left: 10%;
+}
+.Banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.Banner-text h1{
+    font-size: 100px;
+}
+.Banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
