@@ -22,10 +22,29 @@
 }
 .Banner-text h1{
     font-size: 100px;
+    font-family: 'Delicious Handrawn', cursive;
+
 }
 .Banner-text p{
     font-size: 20px;
-    font-style: italic;
+    font-family: 'Lilita One', cursive;
+
 }
 
-
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #d1be9a;
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
