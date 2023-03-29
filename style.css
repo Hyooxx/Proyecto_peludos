@@ -115,11 +115,12 @@ nav ul li a{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+ 
 
 }
 .features{
-    flex-basis: 50%;
-
+    flex-basis: 20%;
+    text-indent: 20px;
 }
 .features-img{
     flex-basis: 50%;
