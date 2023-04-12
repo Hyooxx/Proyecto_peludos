@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Adopciones</title>
+	<style>
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			font-family: Arial, sans-serif;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		input[type="text"],
+		input[type="password"],
+		select,
+		textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+		}
+
+		input[type="radio"] {
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		button {
+			display: block;
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+		}
+
+		button:hover {
+			background-color: #9b8358;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<h2>Registro de usuarios</h2>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+
+		<label for="contrasena">Contraseña:</label>
+		<input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
+
+		<label for="genero">Género:</label>
+		<input type="radio" id="femenino" name="genero" value="femenino">
+		<label for="femenino">Femenino</label>
+		<input type="radio" id="masculino" name="genero" value="masculino">
+		<label for="masculino">Masculino</label>
+
+		<label for="ciudad">Ciudad:</label>
+		<select id="ciudad" name="ciudad">
+			<option value="">Seleccione una ciudad</option>
+			<option value="Santiago">Santiago</option>
+			<option value="Valparaíso">Valparaíso</option>
+			<option value="Concepción">Concepción</option>
+			<option value="Antofagasta">Antofagasta</option>
+			<option value="Temuco">Temuco</option>
+            <option value="Temuco">Puerto Montt</option>
+		</select>
+
+		<label for="comentarios">Comentarios:</label>
+		<textarea id="comentarios" name="comentarios" placeholder="Escriba sus comentarios aquí"></textarea>
+
+		<button type="submit">Enviar</button>
+	</form>
+</body>
+</html>
